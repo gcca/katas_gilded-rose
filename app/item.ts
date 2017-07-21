@@ -1,0 +1,13 @@
+export class Item {
+    name: string;
+    sellIn: number;
+    quality: number;
+
+    constructor(name, quality, sellIn) {
+        this.name = name;
+        this.sellIn = sellIn;
+        this.quality = quality;
+    }
+}
+
+
